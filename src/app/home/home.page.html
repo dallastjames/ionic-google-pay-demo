@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Blank </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button color="primary" type="button" (click)="initWeb()">
+      Init Client
+    </ion-button>
+    <ion-button color="secondary" type="button" (click)="canMakePayment()">
+      Can Make Payment
+    </ion-button>
+    <ion-button color="tertiary" type="button" (click)="makePaymentRequest()">
+      Make Payment Request
+    </ion-button>
+  </div>
+</ion-content>
